@@ -1,8 +1,9 @@
 .App {
-  height: 110vh;
+  height: 100vh;
   color: white;
   background-color: #020230;
   display: flex;
+  overflow: hidden;
   flex-direction: column;
 }
 
@@ -13,6 +14,7 @@
   background: url("https://i.pinimg.com/originals/f1/17/23/f11723f9894882a76ce18a626cc5ad69.jpg")
     center;
   height: 100%;
+  overflow: hidden;
   background-size: cover;
 }
 
@@ -20,6 +22,7 @@
   height: 100%;
   display: flex;
   flex-direction: column;
+  overflow: hidden;
   align-items: center;
   justify-content: space-around;
 }
